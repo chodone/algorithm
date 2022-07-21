@@ -55,10 +55,14 @@ while is_playing:
             print('이용해주셔서 감사합니다. 게임을 종료합니다.')
             is_playing = False
             break
+        
+        if retry != 'y':
+            print("잘못된 값을 입력하였습니다. 게임을 종료합니다")
 
     
 
     # continue 와 break가 많은 코드는 좋은 코드가 아니다. 
+    # 먼저 처리할 것들을 break로 먼저 빼준다.
 
         
 
