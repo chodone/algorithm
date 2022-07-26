@@ -21,3 +21,12 @@ print(newFruits_list)
 
 
 # for 문을 도는 literable 리스트의 값을 insert() 함수로 변환시켰기에 무한루프가 돌았다
+
+'''
+
+fruit = fruit.lower()
+fruit = fruit.replace('rotten', '')
+fruitLst = fruit.split(',')
+print(fruitLst)
+
+'''
