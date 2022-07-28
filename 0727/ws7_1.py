@@ -1,4 +1,4 @@
-class Nationality():
+class Nationality:
     def __init__(self,nation) :
         self.nation = nation
     

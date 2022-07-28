@@ -2,7 +2,7 @@ import random
 
 
 
-class Pair():
+class Pair:
     
     def __init__(self,stuList) :
         self.stuList = stuList
