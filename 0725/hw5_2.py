@@ -16,9 +16,9 @@ def is_selfnumber():
 
 
 
-#1
+
 print(fn_d(91))
 
-#2 
+ 
 
 
