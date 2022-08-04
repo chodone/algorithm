@@ -5,7 +5,7 @@
 
 
 for tc in range(int(input())):
-    
+
     K, N, M = map(int, input().split(" "))
     start = 0
 
@@ -22,6 +22,7 @@ for tc in range(int(input())):
     
     
     newStop_lst = stop_lst[::K]
+    print(newStop_lst)
     idx = 0
     result = 0
     for chargeStop in newStop_lst:
@@ -33,6 +34,7 @@ for tc in range(int(input())):
             for newChargeStop in stop_lst[idx:idx-K:-1]:
                 if newChargeStop:
                     newStop_lst = stop_lst[idx::K]
+                    print(newStop_lst)
                     idx -= 1
                     result += 1 
                     break
