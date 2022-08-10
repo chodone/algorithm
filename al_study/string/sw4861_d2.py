@@ -1,3 +1,5 @@
+# 회문
+
 def Transverse(str_lst , N):
     for i in range(N/2):
         for j in str_lst[i]:
